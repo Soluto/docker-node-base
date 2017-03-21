@@ -11,4 +11,5 @@ RUN apt-get update \
 	&& echo "deb https://dl.yarnpkg.com/debian/ stable main" | tee /etc/apt/sources.list.d/yarn.list \
 	&& apt-get update && apt-get install yarn \
 	&& git config --global user.email "it@soluto.com" \
-	&& git config --global user.name "it"
+	&& git config --global user.name "it" \
+	&& apt-get clean
