@@ -1,6 +1,6 @@
 FROM soluto/node-base:8
  
-MAINTAINER Asaf Kotzer <asaf@soluto.com>
+MAINTAINER Tomer Frenkel <tomerf@soluto.com>
  
 RUN apt-get update \
 	&& apt-get install -y g++ \
