@@ -4,7 +4,7 @@ MAINTAINER Asaf Kotzer <asaf@soluto.com>
  
 RUN apt-get update \
 	&& apt-get install -y curl --fix-missing \
-	&& curl -sL https://deb.nodesource.com/setup_6.x | bash - \
+	&& curl -sL https://deb.nodesource.com/setup_9.x | bash - \
 	&& apt-get install -y nodejs \
 	&& apt-get install -y git \
 	&& curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | apt-key add - \
